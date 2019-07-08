@@ -61,7 +61,7 @@ It can still be useful to route to static assets on the server - e.g. images or 
 application itself.
 
 This project also has client-side routing enabled. These are deep links that will be routed to the client index
-page where the React router will take over: 
+page where the React router will take over:
 
 ```
 http://localhost:8080/users
@@ -99,7 +99,7 @@ same directory as package.json (this has already been applied in this project):
     "secure": false
   }
 }
-``` 
+```
 
 You may need to adjust the port number, in this case 8080 is the port number used by the Jetty container launched
 by the aforementioned maven command.
@@ -123,5 +123,5 @@ And then as usual to run the development version of the application (use port 42
 cd src/main/app
 yarn start
 ```
- 
+
 You're welcome.
